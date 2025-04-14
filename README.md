@@ -1,5 +1,13 @@
 This is the updated code for CUFitness
 # CUFitness
+🛡️ Security Note
+
+This version of CUFitness has been updated to follow proper security practices by removing hardcoded API keys from the project files.  
+The application now uses environment variables (via a `.env` file) to securely manage any sensitive configuration.
+
+All functionality, including the AI-powered chatbot feature, remains fully operational.
+
+> This update ensures the project is safe, professional, and ready for public hosting and academic submission.
 
 CUFitness is a Django-based web application that provides user registration, login, password reset, and profile management functionality. This project was built as a learning exercise in Django development and includes several key features.
 
